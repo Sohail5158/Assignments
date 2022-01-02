@@ -1,4 +1,5 @@
-var num=10;
+var num=prompt("enter any number");
+num=parseInt(num);
 if(num>10)
 {
 console.log("num is greater than 10");
