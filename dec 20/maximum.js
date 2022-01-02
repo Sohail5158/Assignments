@@ -1,8 +1,8 @@
-var n1=2;
+var n1=prompt("enter any number");
 n1=parseInt(n1);
-var n2=6;
+var n2=prompt("enter any number");;
 n2=parseInt(n2);
-var n3=3;
+var n3=prompt("enter any number");;
 n3=parseInt(n3);
 if(n1>n2)
 {
