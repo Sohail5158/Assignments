@@ -1,0 +1,47 @@
+    body{
+        background-color: rgba(25, 10, 240, 0.733);
+    }
+
+    table {
+        border-radius: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 800px;
+        width: 800px;
+        background-color: rgb(22, 21, 21);
+        
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    #input {
+
+        height: 250px;
+    }
+
+    td {
+        font-size: 50px;
+        width: 50px;
+        border-radius: 100px;
+        background-color: black;
+        color: blanchedalmond;
+        text-align: center;
+    }
+    sup{
+        color: aqua;
+    }
+    .on{
+        color: rgb(46, 226, 40);
+    }
+    .trig{
+        color: rgb(204, 204, 59);
+    }
+    .arth{
+        color: rgb(235, 106, 106);
+    }
+    .m{
+        color: rgba(220, 20, 60, 0.356);
+    }
