@@ -1,0 +1,13 @@
+header{
+    padding-top: 10px;
+    height: 80px;
+    text-align: center;
+    background-color: goldenrod;
+}
+main{
+    font-size: x-large;
+    color: whitesmoke;
+}
+body{
+    background-color: black;
+}
