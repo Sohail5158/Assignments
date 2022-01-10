@@ -1,0 +1,20 @@
+    body{
+        border-width: 9px;
+        border-style: inset;
+        border-top-style: double;
+        border-bottom-style:double;
+        border-color: black;
+        }
+        h1{
+            margin: 30px;
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        p::first-letter{
+            font-size: 80px;
+        }
+      img{
+          float: left;
+      }
