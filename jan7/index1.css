@@ -10,7 +10,8 @@ body{
   border-right: 150px solid transparent;
   border-bottom: 150px solid rgb(212, 90, 33);
   position: relative;
-  top: 130px;
+  top: 150px;
+    z-index:6;
 }
 
 #triangle2{
@@ -20,7 +21,8 @@ body{
   border-right: 150px solid transparent;
   border-bottom: 150px solid rgb(155, 255, 172);
   position: relative;
-  top: 50px;
+  top: 70px;
+    z-index:5;
 }
 
 #triangle3{
