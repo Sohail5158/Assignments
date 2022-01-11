@@ -51,5 +51,8 @@ p {
     color: whitesmoke;
 }
 header{
-    position: sticky;
+    position: fixed;
+}
+main{
+    padding:250px;
 }
