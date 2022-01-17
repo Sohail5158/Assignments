@@ -1,0 +1,27 @@
+body{
+    background-color: #60696B;
+   padding-left: 700px;
+   padding-top: 200px;
+}
+.contacts{
+    padding-left: 20px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+    overflow-y: scroll;
+}
+p{
+    padding-left:25px;
+}
+.contacts>p:hover{
+    padding-left: 40px;
+    background-color: #60696B;
+}
+.contacts>h1{
+    position: sticky;
+    top: 0;
+    background-color: #60696B;
+}
+b{
+    color: aliceblue;
+}
