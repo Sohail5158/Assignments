@@ -1,0 +1,37 @@
+
+ body{
+    background-color: goldenrod;
+  }
+ button{
+   border-width: 10px;
+   background-color: white;
+   border-style:outset;
+   height: 150px;
+   width: 150px;
+   font-size: 80px;
+ }
+ #likes{
+   text-align: center;
+   position: relative;
+   top: 250px;
+   
+ }
+ span{
+   font-size: 50px;
+   padding-right: 80px;
+   padding-left: 40px;
+ }
+ #text{
+    text-align: center;
+ }
+#love{
+  font-size: 30px;
+  position: relative;
+  right: 280px;
+  top:20px}
+#hate{
+  font-size: 30px;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+}
