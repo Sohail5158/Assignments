@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>CALCULTOR</h1>
+    </header>
+    <main>
+        <p id="dis">0</p>
+        <button onclick='concatenumber("1");'>1</button>
+        <button onclick='concatenumber("2");'>2</button>
+        <button onclick='concatenumber("3");'>3</button>
+        <button onclick='setoperator("+")'>+</button>
+        <br>
+        <button onclick='concatenumber("4");'>4</button>
+        <button onclick='concatenumber("5");'>5</button>
+        <button onclick='concatenumber("6");'>6</button>
+        <button onclick='setoperator("-")'>-</button>
+        <br>
+        <button onclick='concatenumber("7");'>7</button>
+        <button onclick='concatenumber("8");'>8</button>
+        <button onclick='concatenumber("9");'>9</button>
+        <button onclick='setoperator("x")'>x</button>
+        <br>
+        <button onclick='concatenumber("0");'>0</button>
+        <button onclick='concatenumber("00");'>00</button>
+        <button onclick="equals()">=</button>
+        <button onclick='setoperator("÷")'>÷</button>
+        <br>
+        <button onclick="clearall();">c</button>
+        <button onclick="deletelastdigit();">⬅</button>
+    </main>
+
+</body>
+<script src="index.js"></script>
+
+</html>

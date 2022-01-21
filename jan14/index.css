@@ -1,0 +1,31 @@
+h1{
+    margin: 0px;
+    background-color: black;
+    color: #B79C05;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+main{
+    text-align: center;
+    padding-top: 40px;
+    background-color: transparent;
+}
+button{
+    background-color: black;
+    color: #B79C05;
+    font-size: 25px;
+    width: 100px;
+    height: 60px;
+}
+button:hover{
+    background-color: #B79C05;
+    color: black;
+}
+p{
+    font-size: 25px;
+    height: 60px;
+}
+body{
+    background-color: #B79C05;
+}
