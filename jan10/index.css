@@ -1,0 +1,137 @@
+body{
+    background-color:blanchedalmond;
+}
+#container{
+    border: 2px solid grey;
+    display: flex;
+    margin: 34px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+   }
+
+#header{
+    height: 200px;
+    width: 200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+ }
+
+#header{
+    height:50px;
+    width: 100%;
+    background-color:greenyellow;
+}
+#aside1{
+    height:50px;
+    width: 10%;
+    background-color:palevioletred;
+   
+}
+#cont{
+    height:50px;
+    width: 80%;
+    background-color:white;
+}
+#aside2{
+    height:50px;
+    width: 10%;
+    background-color:palevioletred;
+}
+#footer{
+    height:50px;
+    width: 100%;
+    background-color:burlywood;
+}
+
+
+@media(max-width:600px){
+
+    #container{
+        display:Flex;
+        margin: 0;
+        height:100px;
+        
+    }
+
+    #header{
+         width: 100%;
+         order: 1;
+        
+    }
+    #aside1{
+        height:50px;
+        width: 100%;
+        order: 3;
+        
+    }
+    #cont{
+        width: 100%;
+        overflow: hidden;
+        order: 2;
+            
+    }
+    #aside2{
+        height:50px;
+        width: 100%;
+        order: 4;
+        
+    }
+    #footer{
+        height:50px;
+        width:100%;
+        order:5;  
+    }
+}
+
+    @media(min-width:600px) and (max-width:800px){
+
+        #container{
+            display:Flex;
+            margin: 0;
+            height:100px;
+            
+        }
+
+        #header{
+            height:50px;
+            width:100%;
+            order:1;  
+        }
+
+        #aside1{
+            height:50px;
+            width:50%;
+            order:3;  
+        }
+
+        #cont{
+            height:50px;
+            width:100%;
+            order:2;  
+        }
+
+        #aside2{
+            height:50px;
+            width:50%;
+            order:4;  
+        }
+
+        #footer{
+            height:50px;
+            width:100%;
+            order:5;  
+        }
+
+
+    }
+
+
+
+
+
+
+
